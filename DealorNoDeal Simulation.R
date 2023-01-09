@@ -90,7 +90,6 @@ f <- function() {
   }
   return(final_value)
 }
-
 data = replicate(10000, f())
 mean(data)
                             
